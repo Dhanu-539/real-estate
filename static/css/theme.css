@@ -1,0 +1,50 @@
+
+/* =====================================
+   REDDY'S REAL ESTATE - NAVBAR ONLY
+   ===================================== */
+
+html body nav.navbar,
+html body .navbar {
+    background: #050b08 !important;
+    background-color: #20392D !important;
+    border-bottom: 1px solid #66836B !important;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.16) !important;
+}
+
+/* Brand name */
+html body nav.navbar .navbar-brand,
+html body .navbar .navbar-brand {
+    color: #FFFFFF !important;
+}
+
+/* Navigation links */
+html body nav.navbar .navbar-nav .nav-link,
+html body .navbar .nav-link {
+    color: #E4EDE3 !important;
+    transition: color 0.25s ease;
+}
+
+/* Hover and active links */
+html body nav.navbar .navbar-nav .nav-link:hover,
+html body nav.navbar .navbar-nav .nav-link:focus,
+html body nav.navbar .navbar-nav .nav-link.active,
+html body .navbar .navbar-brand:hover {
+    color: #B8D99D !important;
+}
+
+/* Mobile menu button */
+html body .navbar .navbar-toggler {
+    border: 1px solid #91AD91 !important;
+}
+
+html body .navbar .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* Expanded mobile navigation */
+@media (max-width: 767.98px) {
+    html body nav.navbar .navbar-collapse.show,
+    html body nav.navbar .navbar-collapse.collapsing {
+        background-color: #20392D !important;
+    }
+}
